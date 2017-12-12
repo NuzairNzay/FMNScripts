@@ -33,7 +33,7 @@ By using the below you can ensure you are always using the latest version of the
 # Just copy and paste the below into your Startup Scripts under Servers. 
 #!/bin/sh
 
-export STARTUP_URL=https://raw.githubusercontent.com/kfowlks/vultr-startup/master/startup.sh
+export STARTUP_URL=https://github.com/NuzairNzay/FMNScripts/blob/master/startup.sh
 export STARTUP_LOCAL_FILE=startup.sh
 
 wget $STARTUP_URL
@@ -65,8 +65,8 @@ Optional - Run InstallBase:
 
 ```bash
 sudo su -
-bash <(wget -qO- https://raw.githubusercontent.com/kfowlks/vultr-startup/master/installbase.sh)
+bash <(wget -qO- https://github.com/NuzairNzay/FMNScripts/blob/master/installbase.sh)
 ```
 
-bash <(wget -qO- https://raw.githubusercontent.com/kfowlks/vultr-startup/master/installbase.sh)
+bash <(wget -qO- https://github.com/NuzairNzay/FMNScripts/blob/master/installbase.sh)
 
